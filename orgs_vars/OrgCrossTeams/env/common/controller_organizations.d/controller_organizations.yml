@@ -1,0 +1,8 @@
+controller_organizations:
+  - name: "{{ orgs }}"
+    description: "Orgcrossteams to tests"
+    galaxy_credentials:
+      - "{{ orgs }} {{ env }} Automation Hub Community Repository"
+      - "{{ orgs }} {{ env }} Automation Hub Published Repository"
+      - "{{ orgs }} {{ env }} Automation Hub RH Certified Repository"
+...
